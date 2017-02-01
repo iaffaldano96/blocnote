@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31-gen-2017, 14.00.12
+    Author     : tss
+*/
+
+#conteni{
+    height: 400px; width:1600px;
+    border: solid 2px black;
+    position: absolute;
+    margin-left:100px ; margin-top:100px;
+}
+
+.barra{
+    border-bottom: solid 1px black;
+    height: 22px; width:auto
+}
+
+#destra div {
+    float: right;
+    width: 40px;
+    text-align: center;   
+}
+
+.sini div {
+    float: left;
+}
+
+#destra div:hover{
+    background-color: red;opacity: 0.5;
+    box-shadow: 2px 2px red;
+}
+
+#menu{
+   border-bottom: solid 1px black;
+   height: 25px; width:auto;   
+}
+
+#menu div{
+   float: left; 
+   width: 150px;
+   text-align: center
+}
+
+#menu div:hover {
+    background-color: lightgray;
+}
+
+/* file*/
+#menu:hover .tendina .file:hover li:hover{
+    background-color: lightcoral;
+}
+#menu:hover .file ul{    
+    display: block
+}      
+
+/*modi*/
+#menu:hover .tendina .modi:hover li:hover{
+    background-color: lightcoral;
+}
+#menu:hover .modi ul{
+    display: block
+}
+
+/* forma*/
+#menu:hover .tendina .forma:hover li:hover{
+    background-color: lightcoral;
+}
+#menu:hover .forma ul{
+    display: block
+}
+
+/*visu*/
+#menu:hover .tendina .visu:hover li:hover{
+    background-color: lightcoral;
+}
+#menu:hover .visu ul{
+    display: block
+}
+
+
+.tendina ul{
+    text-align: left;
+    position: relative;
+    display: none;
+    list-style: none;
+     
+}
+
+.tendina div {
+    width: 200px;
+    margin-left: 10px
+}
+
+
+ 
